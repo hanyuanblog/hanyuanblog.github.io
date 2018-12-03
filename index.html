@@ -136,6 +136,24 @@
 
   <title>Hanyuan's WonderWall</title>
   
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1075996482569994',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 
 
 
@@ -369,8 +387,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2018/12/03/hello-world/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/12/03/hello-world/" itemprop="commentCount"></span>
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count fb-comments-count" data-href="http://hywonderwall.com/2018/12/03/hello-world/" itemprop="commentCount">0</span>
                 </a>
               </span>
             
@@ -522,8 +539,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2018/12/03/testtop/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/12/03/testtop/" itemprop="commentCount"></span>
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count fb-comments-count" data-href="http://hywonderwall.com/2018/12/03/testtop/" itemprop="commentCount">0</span>
                 </a>
               </span>
             
